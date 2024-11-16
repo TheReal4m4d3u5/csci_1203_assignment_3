@@ -1,0 +1,156 @@
+Assignment 3:                 Given: 06/02/14    Due: 06/06/14
+------------                                  Points: 10
+                                            Modified: 06/05/14
+Purpose: Expand an exisiting class to add more attributes and 
+         add some additional methods.
+
+    Description:
+    -----------
+      Modify the GoodDog and GoodDogTestDrive classes from 
+      pg. 82 in the text. (See also the example on pg. 62.)
+      
+      Add the following additional instance variables/attributes to 
+      the class:
+           - Name 
+           - Breed
+           - Color
+           - Age
+  
+      In your "TestDrive" code:
+        1) make three dog variables/references
+        2) create three dogs for those variables
+        3) initialize the 3 dogs
+        4) display all the attributes of all the dogs
+           and have them demonstrate their bark
+  
+      Repeat the previous 4 steps with an array representing
+      a pack of three dogs
+
+      Do not read any inputs, just produce the output. 
+
+E-mail your source code to Otto.
+* Read and follow the Email submission Guidelines on otto.*
+                         Programming -> Otto email.
+* Read and follow the Programming Guidelines posted on otto.*
+                         Programming -> Programming guidelines
+===============================================================
+Assignment 4:                Given: 06/12/14     Due: 06/20/14
+------------                                  Points: 10
+Purpose: - Start working on the game of Battleship
+         - Create a class to model a Ship in the game 
+           Battleship.
+           - This class will be similar to the SimpleDotCom 
+             class from Chap. 5 in the Sierra text.
+
+Description:
+    Create a class Ship to model a ship in the game of 
+    Battleship. Just like the SimpleDotCom class, an object 
+    of this class should know its location and whether it has
+    been sunk. These will be important when a board that
+    contains several ships is part of a game.
+    
+    However, this assignment is only about the class ship.
+    In that regard:
+      - do not work on the game
+      - do not work on the board
+      - do not work on multiple players
+    These things will be issues later, but for now, you are
+    only coding a class Ship.
+      
+Notes:
+-----
+  - A description of the game and its rules can be obtained 
+    from Mr. Polzin
+  - Write a good ShipTestDrive class to exercise the Ship 
+    class and show that it is working the way it should.
+    Be sure to:
+    ----------
+      - create several objects in the test code
+      - demonstrate Hit/Miss/Sunk
+       
+E-mail your source code to Otto.
+===============================================================
+Assignment 5:                Given: 06/24/14     Due: 07/03/14
+------------                                  Points: 10
+Purpose: - Continue working on the game of Battleship
+         - Create a class Player for the game 
+           Battleship.
+
+Description:
+    Create a class Player to represent a player in the game of 
+    Battleship. The class should have at least the following:
+      - A Fleet/set of Ship objects representing the player's 
+        ships
+      - A way to track guesses a player has made
+      - Methods to:
+        - set ship placement {A player should be able
+          to determine their own ship placement. If you
+          allow "automatic" placement, overload the placement
+          method
+        - determine if the game is over for this player
+        - check an opponent's guess to determine if one of this 
+          player's ships has been hit
+        - guess a location
+        - error check a guess to be sure it is legitimate
+          
+    Try to satisfy, or be ready to satisfy, any related
+    requirements set by the rules of the game.
+          
+    This assignment is only about the class Player.
+    In that regard:
+      - do not work on the entire game
+      - do not work on multiple players
+    Consider these items and what their implementation might 
+    need from class Player, but focus on the Player class.
+      
+Notes:
+-----
+  - Develop your code incrementally. 
+    - Find the smallest/simplest thing you can accomplish,
+      and code that up and test it
+    - Add only what you are sure you need (Think minimization.)
+    - You may need to modify some of your exisiting classes 
+      or even add some new "helper" classes. {But only if 
+      necessary.}
+  - Write and modify your TestDrive class as you code, to 
+    exercise your code both to show that new code is working 
+    properly, and confirm that earlier code/tests still work. 
+    {Check for inadvertently introduced errors.}
+       
+E-mail your source code to Otto.
+===============================================================
+Assignment 6:                Given: 07/03/14     Due: 07/11/14
+------------                                  Points: 10
+***                     Due date change                    ***
+Purpose: Play the game.
+         
+Description: 
+   
+  For this assignment you should alternately read guesses from 
+  the two players. Mark misses, hits, and sunk ships. Declare a 
+  winner when all one player's boats are sunk.
+
+Notes:
+-----
+- Read in the players placement of their objects first
+- After placement; display two initially empty grids/boards 
+  and fill them in according to each player's guesses. 
+- Indicate the winner when one player's ships are all sunk.
+
+E-mail your source code to Otto.
+===============================================================
+Assignment 7:                Given: 07/10/14     Due: 07/18/14
+------------                                  Points: 10
+Purpose: Use graphics and build a Graphical User Interface
+         
+Description: 
+      Add a graphical user interface to your battleship game 
+      to provide input and output.
+      
+Notes:
+-----
+- Most of the previous assignment should still be usable for
+  this assignment, the only difference being that the input 
+  and output will be graphical.
+- You can use one of the versions of the TicTacToe game as
+  a basis to produce your grids. {Or design your own.}
